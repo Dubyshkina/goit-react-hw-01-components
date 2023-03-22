@@ -1,0 +1,38 @@
+.friend__item{
+    padding:15px 8px;
+    background-color: #fff;
+    margin-bottom: 10px;
+    border:1px solid grey;
+    border-radius: 5px;
+    display:flex;
+    align-items: center;
+    gap:10px;
+}
+
+.friend__status{
+    display:inline-block;
+    width:15px;
+    height:15px;
+    border-radius: 50%;
+    background-color: green;
+    
+}
+.friend__status_offline{
+    display:inline-block;
+    width:15px;
+    height:15px;
+    border-radius: 50%;
+    background-color: red;
+
+}
+.friend__avatar{
+    width:60px;
+    height:60px;
+    border:1px solid grey;
+    border-radius: 8px;
+}
+.friend__name{
+    font-size: 26px;
+    font-weight: 500;
+    color:grey;
+}
